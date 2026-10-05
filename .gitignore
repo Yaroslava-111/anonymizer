@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.enc
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+
+# Файлы, создаваемые при проверке работы на демонстрационных данных
+sample_data_anonymous.xlsx
+sample_data_anonymous_mapping.json
+sample_data_restored.xlsx
+
+# Ярлык Windows: содержит путь к конкретному компьютеру
+*.lnk
+
+# Внутренняя заметка, не входит в публикуемую документацию
+FOR_YONOTE.md
+
+# Исходная папка со снимком экрана (используется копия в docs/screenshots)
+photo/

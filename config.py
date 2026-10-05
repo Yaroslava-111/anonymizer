@@ -1,0 +1,46 @@
+PERSONAL_COLUMN_PATTERNS = {
+    "фio": "name",
+    "имя": "name",
+    "фамилия": "name",
+    "отчество": "name",
+    "full_name": "name",
+    "first_name": "name",
+    "last_name": "name",
+    "middle_name": "name",
+    "фио": "name",
+    "телефон": "phone",
+    "phone": "phone",
+    "mob": "phone",
+    "моб": "phone",
+    "email": "email",
+    "e-mail": "email",
+    "почта": "email",
+    "mail": "email",
+    "паспорт": "passport",
+    "серия": "passport",
+    "номер паспорта": "passport",
+    "passport": "passport",
+    "inn": "inn",
+    "инн": "inn",
+    "адрес": "address",
+    "прописка": "address",
+    "address": "address",
+    "дата рождения": "birth_date",
+    "др": "birth_date",
+    "dob": "birth_date",
+    "date_of_birth": "birth_date",
+}
+
+REGEX_PATTERNS = {
+    "phone": r"^\+?\d{10,15}$",
+    "email": r"^[\w\.-]+@[\w\.-]+\.\w+$",
+    "inn": r"^\d{10}$|^\d{12}$",
+    "passport": r"^\d{4}\s?\d{6}$",
+}
+
+DEFAULT_CONFIG = {
+    "csv_separator": ",",
+    "csv_encoding": "utf-8",
+    "excel_engine": "openpyxl",
+    "mapping_version": 1,
+}
